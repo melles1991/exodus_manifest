@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    
+     <!-- Remotes -->
+    <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" /> 
+		  
   <!-- Sync trees -->
   <project path="device/xiaomi/onclite" name="ExodusOS/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
   <project path="vendor/xiaomi/onclite" name="Sensei-Developer/vendor" remote="all" revision="lineage-19.1" />
