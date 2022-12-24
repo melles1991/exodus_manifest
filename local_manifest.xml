@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Remotes -->
-  <remote revision="refs/heads/lineage-19.1"
-           remote="github"
-           sync-c="true"
-           sync-j="4" /> 
     
   <!-- Sync trees -->
   <project path="device/xiaomi/onclite" name="ExodusOS/android_device_xiaomi_onclite" remote="all" revision="lineage-19.1" />
